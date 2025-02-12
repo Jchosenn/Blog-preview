@@ -1,0 +1,80 @@
+body{
+    background: hsl(47, 88%, 63%) ;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.file{
+    border: 1px solid  hsl(0, 0%, 7%);
+    width: 400px;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 10px 10px  hsl(0, 0%, 7%);
+    background: hsl(0, 0%, 100%);
+}
+
+@font-face{
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+    font-family: "ExtraBold";
+}
+@font-face{
+    src: url(assets/fonts/static/Figtree-Medium.ttf);
+    font-family: "Medium";
+}
+@font-face{
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+    font-family: "VariableFont";
+}
+img.article{
+    width:100%;
+  border-radius: 15px;  
+}
+p.learn{
+    background: hsl(47, 88%, 63%);
+    width: 80px;
+    text-align: center;
+    font-weight: bolder ;
+    font-size: 18px;
+    padding: 5px;
+    font-family: 'Medium', Times, serif;
+    color:  hsl(0, 0%, 7%);
+}
+p.dec{
+    font-size: 18px;
+    font-weight:600;
+    color:  hsl(0, 0%, 7%);
+    font-family:"VariableFont" , Helvetica, sans-serif;
+}
+h1{
+    font-size: 30px;
+    font-family: "ExtraBold", Geneva, Tahoma, sans-serif;
+}
+p.bone{
+    color: hsl(0, 0%, 42%);
+    font-size: 19px;
+    font-family:"VariableFont" , Helvetica, sans-serif;
+font-weight: 500;
+}
+div.image{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+p.greg{
+  margin-top: 30px;
+  font-family:"ExtraBold", Geneva, Tahoma, sans-serif;
+}
+img.webp{
+width: 40px;
+margin-bottom: 50px;
+}
+.greg-2{
+ margin: 30px 20px 0 10px;
+padding: 10px 0 ;
+}
+h1:hover{
+    color:  hsl(47, 88%, 63%);
+    cursor: pointer;
+}
