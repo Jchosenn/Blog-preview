@@ -2,12 +2,11 @@ body{
     background: hsl(47, 88%, 63%) ;
     height: 100vh;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
+  
 div.file{
     border: 1px solid  hsl(0, 0%, 7%);
+    margin: auto;
     width: 400px;
     padding: 25px;
     border-radius: 20px;
@@ -49,21 +48,21 @@ p.dec{
 }
 h1{
     font-size: 30px;
+    transition: ease-in 0.3s;
     font-family: "ExtraBold", Geneva, Tahoma, sans-serif;
 }
 p.bone{
     color: hsl(0, 0%, 42%);
-    font-size: 19px;
+    font-size: 17px;
     font-family:"VariableFont" , Helvetica, sans-serif;
-font-weight: 500;
+font-weight: 400;
 }
 div.image{
     display: flex;
-    flex-direction: row;
     height: 80px;
 }
 p.greg{
-  margin-top: 30px;
+  margin-top: 10px;
   font-family:"ExtraBold", Geneva, Tahoma, sans-serif;
 }
 img.webp{
@@ -77,4 +76,13 @@ padding: 10px 0 ;
 h1:hover{
     color:  hsl(47, 88%, 63%);
     cursor: pointer;
+}
+
+@media screen and(max-width:568px) {
+ div.file{
+display: flex;
+justify-content: center;
+align-items: center;
+        
+    }
 }
